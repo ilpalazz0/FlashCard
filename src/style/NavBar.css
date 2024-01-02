@@ -1,0 +1,46 @@
+body {
+    background-size: cover;
+}
+
+#nav {
+
+    display: flex;
+    flex-direction: row;
+    font-size: 1.75rem;
+    width: 325px;
+    padding-left: 0px;
+    list-style: none;
+
+}
+
+
+#navbar {
+
+    height: 100px;
+    background-color: rgb(45, 3, 85,.9);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    
+}
+
+#navbar > img {
+    width: 60px;
+    height: 60px;
+    margin: 18px 0px 0px 10px;
+
+    
+}
+
+#nav > li {
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(121, 4, 125);
+    margin-right: 2px;
+    
+}
+
+#nav > li > a {
+    color: white;
+    text-decoration: none;
+}
+

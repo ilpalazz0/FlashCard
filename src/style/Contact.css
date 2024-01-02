@@ -1,0 +1,90 @@
+a > img {
+    width: 60px;
+    height: 60px;
+    margin-left: 0px;
+}
+
+#optional {
+    display: block;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 300px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(45, 3, 85,.9);
+    border-radius: 15px;
+
+}
+
+#optional > ul > li {
+    margin-top: 10px;
+}
+
+#optional > ul {
+    list-style: none;
+}
+
+#optional > ul > li > a {
+    display: flex;
+    flex-direction: row;
+}
+
+#optional > ul > li > a > p {
+    margin-left: 15px;
+    margin-top: 22px;
+}
+
+#mail {
+    color: white;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 20px auto;
+    width: 320px;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(69, 21, 113, 0.5);
+    border-radius: 10px;
+}
+
+#mail > p {
+    font-size: 2rem;
+    margin-top: 0px;
+}
+
+input[type=text] {
+    border-radius: 5px;
+    background-color: rgb(45, 3, 85,.9);
+    font-size: 1.5rem;
+    color: white;
+    width: 300px;
+    max-height: 100px;
+}
+
+textarea {
+    border-radius: 5px;
+    background-color: rgb(45, 3, 85,.9);
+    font-size: 1.5rem;
+    color: white;
+    width: 300px;
+    height: 100px;
+}
+
+#submit-message {
+    border-radius: 10px;
+    background-color: rgba(88, 32, 141, 0.9);
+    color: white;
+    width: 90px;
+    height: 35px;
+    font-size: 1.25rem;
+    box-shadow: 0px 0.5px 0px 0.5px black;
+}
+
+#submit-message:hover {
+    background-color: rgb(45, 3, 85,.9);
+}
+

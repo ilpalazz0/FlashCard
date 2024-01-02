@@ -1,0 +1,42 @@
+.card {
+    display: inline-flex;
+    position: relative;
+    color: white;
+    background-color: rgb(45, 3, 85,.9);
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: perspective(2000px) rotateY(var(--rotate-y,0));
+    transition: 800ms;
+
+}
+
+.card:hover {
+    
+    box-shadow: 2px 2px 2px 0px purple;
+}
+
+.card.flip {
+    --rotate-y: 540deg;
+}
+
+.card .front, .card .back {
+    position: absolute;
+    padding: 10px;
+    backface-visibility: hidden;
+}
+
+.back {
+    transform: rotateY(180deg)
+}
+
+.flip {
+    background-color: rgba(75, 3, 85, 0.9);
+}

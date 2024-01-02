@@ -1,0 +1,64 @@
+
+#body {
+    font-size: 1.6rem;
+    color: white;
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    text-align: center;
+}
+
+#intro {
+    display: inline-block;
+    width: 600px;
+    padding-top: 0px;
+    text-align: left;
+    line-height: 1.2;
+    margin-right: 5px;
+    background-color: rgb(45, 3, 85,.9);
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 2rem;
+    padding-left: 10px;
+}
+
+#intro > p {
+    padding-left: 10px;
+}
+
+#projects {
+    display: inline-block;
+    width: 600px;
+    text-align: left;
+    background-color: rgba(75, 3, 85, 0.9);
+    border-radius: 10px;
+}
+
+#projects > ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+#projects > p {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-left: 10px;
+}
+
+#projects > ul> li {
+    max-width: 210px;
+    text-align: left;
+}
+
+#projects > ul> li:hover {
+    background-color: rgb(45, 3, 85,.9);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

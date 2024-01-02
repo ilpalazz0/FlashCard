@@ -1,0 +1,55 @@
+{
+    "flashcard": 
+    [
+        {
+        "id": 1,
+        "question": "who are you",
+        "answer": "hooman"
+    },
+    {
+        "id": 2,
+        "question": "what is 1+4",
+        "answer": "8"
+    },
+    {
+        "id": 3,
+        "question": "hedafjkasfallo",
+        "answer": "how are you"
+    },
+    {
+        "id": 4,
+        "question": "What is square root of 81?",
+        "answer": "9"
+    },
+    {
+        "id": 5,
+        "question": "fortinait ilya babagi",
+        "answer": "9"
+    },
+    {
+        "id": 6,
+        "question": "2023 GOTY?",
+        "answer": "Baldur's Gate 3"
+    },
+    {
+        "id": 7,
+        "question": "2022 GOTY?",
+        "answer": "Elden Ring"
+    },
+    {
+        "id": 8,
+        "question": "2021 GOTY?",
+        "answer": "It Takes Two"
+    },
+    {
+        "id": 8,
+        "question": "2020 GOTY?",
+        "answer": "Ghost Of Tsushima"
+    },
+    {
+        "id": 9,
+        "question": "Сколько весит килограмм арбуза?",
+        "answer": "1000"
+    }
+]
+}

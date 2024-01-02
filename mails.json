@@ -1,0 +1,22 @@
+{
+  "messages": [
+    {
+      "id": 1,
+      "address": "example@gmail.com",
+      "subject": "test",
+      "message": "dobriy den"
+    },
+    {
+      "address": "hellohi.66@mail.ru",
+      "subject": "feedback",
+      "message": "hello how are you",
+      "id": 2
+    },
+    {
+      "address": "выафыва",
+      "subject": "",
+      "message": "выафывафвы",
+      "id": 3
+    }
+  ]
+}
