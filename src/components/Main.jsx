@@ -1,11 +1,11 @@
-import FlashCard from "./FlashCard"
-import CardList from "./CardList"
+import { SearchCards } from "./SearchCards";
 import '../style/Main.css'
 
 const Main  = () => {
+
     return (
         <div id="card-list">
-            <CardList />
+            <SearchCards />
         </div>
     );
 }

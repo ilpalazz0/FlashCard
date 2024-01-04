@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 import "../style/Contact.css";
 
 const Contact = () => {
-    
 
-    const URL = "";
     const [data, setData] = useState({
         address: "",
         subject: "",
@@ -19,6 +17,7 @@ const Contact = () => {
     }
 
     const sendMail = (e) => {
+        
         e.preventDefault();
         fetch('http://localhost:8001/messages', {
 

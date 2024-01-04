@@ -1,55 +1,122 @@
 {
-    "flashcard": 
-    [
-        {
-        "id": 1,
-        "question": "who are you",
-        "answer": "hooman"
+  "flashcard": [
+    {
+      "id": 2,
+      "question": "what is 1+4",
+      "answer": "8",
+      "date": "4/1/2024 at 6:40",
+      "status": "Learned"
     },
     {
-        "id": 2,
-        "question": "what is 1+4",
-        "answer": "8"
+      "id": 3,
+      "question": "Which class is superior to Cosmic?",
+      "answer": "Mystic",
+      "date": "4/1/2024 at 5:30",
+      "status": "Noted"
     },
     {
-        "id": 3,
-        "question": "hedafjkasfallo",
-        "answer": "how are you"
+      "status": null,
+      "id": 4,
+      "question": "What is square root of 81?",
+      "answer": "9",
+      "date": "3/1/2024 at 21:40"
     },
     {
-        "id": 4,
-        "question": "What is square root of 81?",
-        "answer": "9"
+      "id": 6,
+      "question": "2023 GOTY?",
+      "answer": "Baldur's Gate 3",
+      "date": "4/1/2024 at 5:10",
+      "status": "Noted"
     },
     {
-        "id": 5,
-        "question": "fortinait ilya babagi",
-        "answer": "9"
+      "id": 7,
+      "question": "2022 GOTY?",
+      "answer": "Elden Ring",
+      "date": "4/1/2024 at 5:10",
+      "status": "Noted"
     },
     {
-        "id": 6,
-        "question": "2023 GOTY?",
-        "answer": "Baldur's Gate 3"
+      "id": 9,
+      "question": "2020 GOTY?",
+      "answer": "Ghost Of Tsushima",
+      "date": "4/1/2024 at 5:10",
+      "status": "Noted"
     },
     {
-        "id": 7,
-        "question": "2022 GOTY?",
-        "answer": "Elden Ring"
+      "status": null,
+      "id": 10,
+      "question": "Сколько весит килограмм арбуза?",
+      "answer": "1000",
+      "date": "3/1/2024 at 21:40"
     },
     {
-        "id": 8,
-        "question": "2021 GOTY?",
-        "answer": "It Takes Two"
+      "status": null,
+      "id": 11,
+      "question": "Are you the strongest because you're Satoru Gojo?",
+      "answer": "Or are you Satoru Gojo because you're the strongest?",
+      "date": "3/1/2024 at 21:40"
     },
     {
-        "id": 8,
-        "question": "2020 GOTY?",
-        "answer": "Ghost Of Tsushima"
+      "id": 12,
+      "question": "What color is orange?",
+      "answer": "Orange",
+      "date": "4/1/2024 at 5:27",
+      "status": "Want to Learn"
     },
     {
-        "id": 9,
-        "question": "Сколько весит килограмм арбуза?",
-        "answer": "1000"
+      "status": null,
+      "id": 13,
+      "question": "How much is 10+50?",
+      "answer": "60",
+      "date": "3/1/2024 at 21:40"
+    },
+    {
+      "status": null,
+      "id": 14,
+      "question": "How old Are the Great Wall of China?",
+      "answer": "3000 years old",
+      "date": "3/1/2024 at 21:40"
+    },
+    {
+      "status": null,
+      "id": 15,
+      "question": "hello",
+      "answer": "bye",
+      "date": "3/1/2024 at 21:40"
+    },
+    {
+      "status": null,
+      "id": 17,
+      "question": "Do you like this website?",
+      "answer": "YES",
+      "date": "3/1/2024 at 21:40"
+    },
+    {
+      "id": 19,
+      "question": "Is this real chat??",
+      "answer": "no",
+      "date": "4/1/2024 at 6:0",
+      "status": "Noted"
+    },
+    {
+      "status": null,
+      "id": 20,
+      "question": "почему",
+      "answer": "потому",
+      "date": "3/1/2024 at 21:41"
+    },
+    {
+      "id": 21,
+      "question": "2+2*2",
+      "answer": "6",
+      "date": "4/1/2024 at 7:45",
+      "status": "Want to Learn"
+    },
+    {
+      "question": "Adam Warlock is...",
+      "answer": "a Cosmic ",
+      "date": "4/1/2024 at 7:44",
+      "id": 22
     }
-]
+  ]
 }

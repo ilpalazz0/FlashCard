@@ -1,3 +1,8 @@
+.card-body {
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+}
 .card {
     display: inline-flex;
     position: relative;
@@ -11,20 +16,17 @@
     height: 200px;
     border-radius: 20px;
     font-size: 1.5rem;
-    position: relative;
     transform-style: preserve-3d;
-    transform: perspective(2000px) rotateY(var(--rotate-y,0));
-    transition: 800ms;
-
+    transform: perspective(1000px) rotateY(var(--rotate-y,0));
+    transition: 600ms;
 }
 
 .card:hover {
-    
     box-shadow: 2px 2px 2px 0px purple;
 }
 
 .card.flip {
-    --rotate-y: 540deg;
+    --rotate-y: 180deg;
 }
 
 .card .front, .card .back {
@@ -39,4 +41,55 @@
 
 .flip {
     background-color: rgba(75, 3, 85, 0.9);
+}
+
+#link {
+    padding-top: 100px;
+}
+
+.edit {
+    margin-top: 175px;
+    position: absolute;
+    width: 200px;
+}
+
+#edit-button, #delete-button {
+    background-color: purple;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 5px;
+    margin-bottom: -20px;
+}
+
+#edit-button:hover, #delete-button:hover {
+
+    border: rgba(0, 0, 0, 0.5) solid;
+}
+
+.date-modified {
+    color: white;
+    font-size: 0.75rem;
+}
+
+.status-list {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: -170px;
+    margin-left: 0px;
+    margin-bottom: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.status-list > p  {
+    width: 200px;
+}
+
+#hidden {
+    display: none;
 }
